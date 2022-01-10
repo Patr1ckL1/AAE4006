@@ -2,3 +2,6 @@
 This is the GitHub repository for the subject AAE4006.
 
 You will find all the materials for tasks and laboratory here. 
+
+# 2022.01.10
+Task 1 has been updated
