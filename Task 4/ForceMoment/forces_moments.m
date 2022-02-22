@@ -1,4 +1,4 @@
-% Input:
+ % Input:
 %       x: 12 states
 %       delta: 4 control surfaces
 %       wind: 6 wind parameters. three for steady wind and three for gust
