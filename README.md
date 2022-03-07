@@ -5,7 +5,8 @@ You will find all the codes for tasks and laboratory here.
 
 When you submit your work, just upload the solutions in your group repository. Our TA will grade your work in due course.
 
-
+## 2022.03.07
+Task 6 has been released, and this will be the last task
 ## 2022.02.22
 Task 4 compatible with MATLAB older version has been updated
 ## 2022.02.20
