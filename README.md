@@ -1,10 +1,13 @@
 # AAE4006
 This is the GitHub repository for the subject AAE4006.
 
-You will find all the codes for tasks and laboratory here. 
+You will find all the source codes for tasks here. 
 
-When you submit your work, just upload the solutions in your group repository. Our TA will grade your work in due course.
+When you submit your work, just upload the solutions in your group repository. Our TA will open your page and grade the work in due course.
 
+
+## 2022.03.13
+Task 6 has been updated
 ## 2022.03.07
 Task 6 has been released, and this will be the last task
 ## 2022.02.22
