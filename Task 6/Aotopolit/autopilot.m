@@ -147,7 +147,7 @@ function delta_a = roll_hold(phi_c, phi, p, P)
     differentiator = p;
     kp = P.kp_phi;
     kd = P.kd_phi;
-    delta_a = sat(kp*error+kd*differentiator,P.delta_a_max,-P.delta_a_max);
+    delta_a = sat(kp*error-kd*differentiator,P.delta_a_max,-P.delta_a_max);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,7 +175,7 @@ function delta_r = sideslip_hold(beta_c, beta, flag, P)
     end
     error = beta_c - beta;
     integratorbeta = integratorbeta+P.Ts*error;
-    delta_r = sat(P.kp_beta*error+P.ki_beta*integratorbeta,P.delta_r_max,-P.delta_r_max);
+    delta_r = sat(-P.kp_beta*error-P.ki_beta*integratorbeta,P.delta_r_max,-P.delta_r_max);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

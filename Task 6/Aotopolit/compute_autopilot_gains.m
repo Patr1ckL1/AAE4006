@@ -153,7 +153,7 @@ UAV.delta_a_max = 45*pi/180;
 UAV.e_phi_max = 15*pi/180;
 UAV.kp_phi = UAV.delta_a_max/UAV.e_phi_max*sign(UAV.a_phi2);
 UAV.omega_n_phi = sqrt(abs(UAV.a_phi2)*UAV.delta_a_max/UAV.e_phi_max);
-UAV.zeta_phi = 2.8;
+UAV.zeta_phi = 3;
 UAV.kd_phi = (2*UAV.zeta_phi*UAV.omega_n_phi-UAV.a_phi1)/UAV.a_phi2;
 
 % course
